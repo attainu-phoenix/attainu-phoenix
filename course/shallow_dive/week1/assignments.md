@@ -11,4 +11,4 @@
 #### Create an HTML document that looks like the below image.
 1. You can either do it on codepen and send us a link or commit to a github repo.
 
-![Kiku](images/html_screenshot.png)
+![html screenshot](images/html_screenshot.png)
