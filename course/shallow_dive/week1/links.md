@@ -30,3 +30,13 @@
 1. Signup at [https://codepen.io/](https://codepen.io/)
 #### Tutorial
 1. [https://www.youtube.com/watch?v=pd1NX--k29c](https://www.youtube.com/watch?v=pd1NX--k29c)
+
+
+# HTML
+
+## Tutorials
+1. [https://htmldog.com/guides/html/](https://htmldog.com/guides/html/)
+2. [https://learn.shayhowe.com/html-css/](https://learn.shayhowe.com/html-css/)
+
+## Reference
+1. [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
