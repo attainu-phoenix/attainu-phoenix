@@ -1,0 +1,1 @@
+I want to be a coder because it gets things done. Through coding I want to solve the problems that people face.
