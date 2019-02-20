@@ -1,0 +1,45 @@
+body {
+
+background-image: url("image.jpg");
+background-position: center;
+
+ 
+}
+
+
+h1 {
+    
+    color: aqua;
+    margin-left:425px;
+}
+
+
+
+ul {
+    
+    margin-top: 100px;
+    color: aqua ;
+    font-size: 1.5em;
+    
+}
+
+ol {
+
+    font-size: 0.8em;
+    margin-top:10px;
+}
+ 
+
+ul.new {
+    margin-right:30px;
+    margin-top: -176px;
+    float: right;
+    color: aqua ;
+    font-size: 1.5em;
+
+}
+
+li {
+
+    margin-top: 7px;
+}
