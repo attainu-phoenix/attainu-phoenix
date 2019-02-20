@@ -1,0 +1,52 @@
+body{
+    background-image: url('background.png');
+}
+
+h1{
+    color:white;
+    text-align: center;
+    font-size: 60px;
+}
+p{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+}
+ul{
+    color:white;
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+}
+.movie-container{
+    width: 700px;
+    height: 200px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 27%;
+    margin-bottom: 10%;
+    
+}
+.image-card{
+    width:200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    
+}
+.movie-name{
+    color: white;
+    font-size: 20px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.debug{
+    border:1px solid white;
+}
+.debug-image{
+    border:1px solid yellow;
+}
