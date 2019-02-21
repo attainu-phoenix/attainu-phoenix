@@ -40,3 +40,21 @@
 
 ## Reference
 1. [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+
+# CSS
+
+## Tutorials
+1. [https://htmldog.com/guides/html/](https://htmldog.com/guides/html/)
+2. [https://learn.shayhowe.com/html-css/](https://learn.shayhowe.com/html-css/)
+
+## CSS layout tutorials
+1. [Floats](https://css-tricks.com/all-about-floats/)
+2. [Centering elements](https://css-tricks.com/centering-css-complete-guide/)
+3. [https://css-tricks.com/how-well-do-you-know-css-layout/](https://css-tricks.com/how-well-do-you-know-css-layout/)
+3. [https://medium.freecodecamp.org/css-grid-a-simple-layout-design-tutorial-5312a4a8bcaf](https://medium.freecodecamp.org/css-grid-a-simple-layout-design-tutorial-5312a4a8bcaf)
+
+## Reference
+1. [https://developer.mozilla.org/en-US/docs/Web/CSS/Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+2. [https://tympanus.net/codrops/css_reference/](https://tympanus.net/codrops/css_reference/)
+3. [https://cssreference.io/](https://cssreference.io/)
