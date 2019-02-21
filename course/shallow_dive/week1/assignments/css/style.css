@@ -1,0 +1,42 @@
+body{
+	background: #758AA2;
+}
+h1{
+	font-style: bold;
+	font-family: sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border: solid;
+	border-color: red;
+	border-radius: 25px;
+}
+p{
+	padding-top: 20px;
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+
+}
+ul , li{
+	color: yellow;
+	text-align: center;
+	font-style: italic;
+	font-size:18px;
+}
+.copyright{
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+}
+h4{
+	color: pink;
+	border: solid;
+	border-color: white;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 15px;
+	width: 80%;
+	margin: 0 auto;
+}
