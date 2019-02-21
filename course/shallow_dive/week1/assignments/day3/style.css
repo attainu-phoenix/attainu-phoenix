@@ -1,0 +1,25 @@
+body {
+   
+    background-image: url('bg.png');
+    margin: 15% auto;
+}
+
+h1 {
+    align-content: center;
+    text-align: center;
+    border-style: dashed;
+    border-radius: 2%;
+    width: 500px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+}
+p {
+    color:bisque;
+    margin: auto 45%;
+
+}
+ul {
+    color:bisque;
+    margin: auto 45%;
+}
