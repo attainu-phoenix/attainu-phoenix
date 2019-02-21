@@ -1,0 +1,28 @@
+body
+{
+    background-color: gray;
+}
+
+h1
+{
+    color: orange;
+    text-align:center;
+    font-size: 4em;
+    border: solid;
+    border-color: red;
+}
+
+p
+{
+    text-align: center;
+    color: cyan;
+    font-size: 2em;
+}
+
+ul
+{
+   text-align: center;
+   list-style-position: inside;
+    color:white; 
+    font-size: 2em;
+}
