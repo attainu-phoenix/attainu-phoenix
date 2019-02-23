@@ -1,0 +1,43 @@
+body{
+	background-image:  url(https://image.shutterstock.com/image-photo/standing-woman-on-hill-against-260nw-1023420631.jpg);
+	background-repeat: no-repeat;
+	background-size: 1500px 1200px;
+	backface-visibility: all;
+}
+
+.sidd{
+	height: 700px
+}
+
+.sidd2{
+	font-size: 100px;
+	font-style: all;
+	font-family: algerian;
+
+}
+img{
+	float: right;
+    margin-left: 15%;
+    display: inline-block;
+    border: 2px solid #49432b;
+    border-bottom-left-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+}
+h2{
+	font-size: 35px;
+	font-family: century Gothic;
+	color: #e6e600;
+}
+a{
+	color:yellow;
+}
+
+.p1{
+	font-size: 20px;
+}
+
+.p2{
+	font-size:30px;
+}
