@@ -1,0 +1,53 @@
+.header{
+    height: 60px;
+    background-color: lightgray;
+}
+
+.mail-container{
+    margin-top: 40px;
+}
+
+li{
+    list-style: none;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    padding: 0px;
+}
+.link-container{
+    position: fixed;
+    margin-top: -140px;
+}
+.link-item{
+    height: 48px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mail-body{
+    margin-left: 100px;
+}
+.mail-items{
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    border: 1px solid lightgray;
+    
+}
+.ad-container{
+    width: 58.33%;
+    height: 60px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: lightgray;
+}
