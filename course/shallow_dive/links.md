@@ -58,3 +58,12 @@
 1. [https://developer.mozilla.org/en-US/docs/Web/CSS/Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 2. [https://tympanus.net/codrops/css_reference/](https://tympanus.net/codrops/css_reference/)
 3. [https://cssreference.io/](https://cssreference.io/)
+
+# Javascript
+
+## Tutorials
+1. [https://htmldog.com/guides/javascript/](https://htmldog.com/guides/javascript/)
+2. [Eloquent JavaScript book](https://eloquentjavascript.net/)
+
+## Reference
+1. [https://developer.mozilla.org/bm/docs/Web/JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)
