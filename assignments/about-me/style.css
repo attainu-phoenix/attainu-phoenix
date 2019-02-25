@@ -1,0 +1,24 @@
+body{
+    background-image: url('background.png');
+}
+h1{
+    color: aliceblue;
+    font-size: 5em;
+    border: solid;
+    border-color: teal;
+    text-align: center;
+}
+
+p{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+ul{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
