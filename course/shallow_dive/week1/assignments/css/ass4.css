@@ -1,0 +1,46 @@
+.head{
+		border:solid 1px;
+		margin-left: 0;
+		margin:0;
+		left: 0;
+		background: grey;
+}
+
+.ul{
+		list-style-type: none;
+		border: solid 2px gray;
+		margin-left: 20px;
+		margin-bottom: 50px;
+		margin-top: 30px;
+		padding-bottom:150px;
+		padding-left: 2px;
+		margin-right: 20px;
+	}
+
+.mail-tab thead{
+		background: grey;
+	}
+.mail-tab{
+		border: solid 2px blue;
+		margin-top: 30px;
+		margin-left: 50px;
+		margin-right: 0;
+	 }
+.mail-tab tbody{
+	 	padding-bottom: 30px;
+	 }
+.table td{
+	 	padding: 40px;
+	 }
+.adds {
+	border: solid 2px blue;
+	padding-left: 20px;
+	margin-left: 50px;
+	margin-top: 9px;
+
+}	 
+
+.right{
+	text-align: center;
+
+}
