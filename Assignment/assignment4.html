@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Assignment-4</title>
 <style>
-header {
-  width:100%;
-  padding:1%;
-  border:green solid 1px;
-  background-color:Grey;
-  margin:1%;
+* {
+  box-sizing: border-box;
 }
 
-#firdiv {
-  margin:1%;
+.header, .footer {
+  background-color: Green;
+  color: white;
+  padding: 10px;
 }
 
-#firdiv ul {
-  list-style-type:none;
-  
+.column {
+  float: left;
+  padding: 15px;
 }
 
-#firdiv ul li a {
-  text-decoration: none;
-}
-#firdiv ul li {
-  margin:10px;
-  padding :10px;
-  font-size:30px;
-  text-align:left;
+.container:after {
+  content:" ";
+  clear:both;
+  display:block;
 }
 
-#firdiv {
-  width :15%;
-  height:300px;
-  border: solid red 2px;
-  float :left;
-  border-collapse:collapse;
+.menu {
+  width: 25%;
 }
 
-#secdiv {
-  float :right;
-  width : 70%;
-  height:300px;
-  border-collapse:collapse;
-  margin:1%;
+.content {
+  width: 50%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 1px;
+  background-color: #33b5e5;
+  color: #ffffff;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
 }
 td, th {
   border: 1px solid #dddddd;
@@ -63,27 +65,27 @@ table {
   border-collapse: collapse;
   
 }
-#thirddiv {
-  margin-top :
-}
 
 </style>
 </head>
 <body>
-  <header>
-    <h3>Mymail</h3>
-  </header>
-  <div class="container">
-  <div id="firdiv">
-    <ul >
-  <li><a href="#home">Inbox</a></li>
-  <li><a href="#news">Send</a></li>
-  <li><a href="#contact">Drafts</a></li>
-  <li><a href="#about">Trash</a></li>
-</ul>
+
+<div class="header">
+  <h1>My mail</h1>
+</div>
+
+<div class="container">
+  <div class="column menu">
+    <ul>
+      <li>Inbox</li>
+      <li>Sent</li>
+      <li>Trash</li>
+      <li>Drafts</li>
+    </ul>
   </div>
-    <div id="secdiv">
-      <table>
+
+  <div class="column content">
+    <table>
   <tr>
     <th>From</th>
     <th>Subject</th>
@@ -103,12 +105,14 @@ table {
     <td></td>
     <td></td>
     <td></td>
-  </tr>
+        </tr></table>
   
-    </div>
   </div>
-    <div id="thirddiv"></div>
-    
-    
+</div>
+
+<div class="footer">
+  <p>I am ads</p>
+</div>
+
 </body>
 </html>
