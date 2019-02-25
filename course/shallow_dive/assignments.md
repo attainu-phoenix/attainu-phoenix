@@ -28,3 +28,30 @@
     3. The bottom one is for placing ads.
 2. You can use sizes, colors, font etc according to your choice.
 3. You can either do it on codepen and send us a link or commit to a github repo.
+
+# Week 2 Assignments
+
+## Day 1
+
+#### Write a Javascript program that prints multiplication table of 5 upto 10.
+The output should show:
+```
+1 * 5 = 5
+2 * 5 = 10
+.
+.
+.
+10 * 5 = 50
+```
+
+#### Write a Javascript program that prints even numbers from 1 to 100 in descending order
+The output should show:
+```
+100
+98
+96
+.
+.
+.
+2
+```
