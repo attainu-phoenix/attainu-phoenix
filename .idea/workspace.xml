@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4d5fefd-cbd6-47b0-b02e-61edd885c69c" name="Default Changelist" comment="" />
+    <list default="true" id="c4d5fefd-cbd6-47b0-b02e-61edd885c69c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,12 +17,12 @@
     <favorites_list name="attainu-phoenix" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assignments/why_I_want_To_be_Coder">
+        <entry file="file://$PROJECT_DIR$/Assignments/day5/assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="73" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
+            <state relative-caret-position="130">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -44,6 +46,7 @@
         <option value="$PROJECT_DIR$/Assignments/Day 3/about-me.html" />
         <option value="$PROJECT_DIR$/Assignments/Day4/test.js" />
         <option value="$PROJECT_DIR$/Assignments/why_I_want_To_be_Coder" />
+        <option value="$PROJECT_DIR$/Assignments/day5/assignment.js" />
       </list>
     </option>
   </component>
@@ -58,6 +61,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -70,11 +74,16 @@
               <item name="attainu-phoenix" type="462c0819:PsiDirectoryNode" />
               <item name="Assignments" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="attainu-phoenix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="attainu-phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="day5" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -107,6 +116,9 @@
       <workItem from="1550999277880" duration="779000" />
       <workItem from="1551000280727" duration="958000" />
       <workItem from="1551073297281" duration="1088000" />
+      <workItem from="1551118056342" duration="143000" />
+      <workItem from="1551118218927" duration="247000" />
+      <workItem from="1551153513824" duration="179000" />
     </task>
     <task id="LOCAL-00001" summary="testing ide">
       <created>1551001196531</created>
@@ -119,7 +131,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2825000" />
+    <option name="totallyTimeSpent" value="3394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -132,6 +144,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="25" width="1304" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.1811085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24980484" />
@@ -211,9 +224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/Day4/gmail.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assignments/Day 2/assignment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -221,10 +231,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/Day4/gmail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assignments/why_I_want_To_be_Coder">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="73" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
+        <state relative-caret-position="104">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/day5/assignment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
