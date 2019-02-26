@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4d5fefd-cbd6-47b0-b02e-61edd885c69c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c4d5fefd-cbd6-47b0-b02e-61edd885c69c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/Assignments/day5/assignment.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="130">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -118,7 +116,7 @@
       <workItem from="1551073297281" duration="1088000" />
       <workItem from="1551118056342" duration="143000" />
       <workItem from="1551118218927" duration="247000" />
-      <workItem from="1551153513824" duration="179000" />
+      <workItem from="1551153513824" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="testing ide">
       <created>1551001196531</created>
@@ -127,11 +125,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551001196531</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="javascript 1st assignment">
+      <created>1551153790014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551153790014</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3394000" />
+    <option name="totallyTimeSpent" value="3523000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -144,9 +149,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="25" width="1304" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.1811085" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.1811085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24980484" />
       <window_info id="Favorites" order="2" sideWeight="0.50083196" side_tool="true" weight="0.1811085" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -211,7 +215,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing ide" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing ide" />
+    <MESSAGE value="javascript 1st assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="javascript 1st assignment" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assignments/Day4/test.js">
@@ -244,7 +249,7 @@
     <entry file="file://$PROJECT_DIR$/Assignments/day5/assignment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
