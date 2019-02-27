@@ -11,5 +11,5 @@ magic.addEventListener("click", function herewego() {
 
 
  function magicFunction() {
-	alert("Hello This Is The Magic Of Javascript for the 2nd time");
+	alert(document.innerHTML=Date());
 }
