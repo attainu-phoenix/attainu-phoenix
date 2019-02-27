@@ -1,0 +1,55 @@
+body {
+	 text-align: center
+}
+
+
+#page {
+
+	width: 300px;
+    margin: 0 auto;
+    margin-top: 220px;
+    text-align:center;
+}
+
+
+
+#click {
+   border: 2px solid green;
+  color: black;
+  background-color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+#click:hover {
+  background-color: green; 
+  color: white;
+}
+
+
+#click2 {
+	border: 2px solid red;
+  color: black;
+  background-color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+#click2:hover {
+  background-color:red; 
+  color: white;
+}
