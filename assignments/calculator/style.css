@@ -1,0 +1,25 @@
+.calculator-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 450px;    
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 2rem;
+    margin-top: 10px;
+}
+button{
+    font-size: 1.5rem;
+    margin: 8px;
+}
