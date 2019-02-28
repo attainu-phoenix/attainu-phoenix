@@ -1,0 +1,12 @@
+body{
+    background-color: orange;
+}
+
+.center{
+    width: 500px;
+    margin: auto;
+}
+
+button{
+    font-size: 2em;
+}
