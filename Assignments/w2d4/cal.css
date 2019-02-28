@@ -1,0 +1,121 @@
+body {
+    text-align: center;
+    background-color: yellow;
+}
+
+#result {
+
+    font-size: 2em;
+
+}
+#page {
+
+	width: 300px;
+    margin: 0 auto;
+    margin-top: 220px;
+    text-align:center;
+    
+}
+
+
+#num1 {
+    font-size: 2em;
+}
+
+#num2 {
+    font-size: 2em;
+}
+
+#addButton {
+    border: 2px solid red;
+   color: black;
+   background-color: white;
+   padding: 16px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   -webkit-transition-duration: 0.4s; 
+   transition-duration: 0.4s;
+   cursor: pointer;
+}
+
+#addButton:hover {
+    background-color:red; 
+    color: white;
+  }
+
+
+
+  #minButton {
+    border: 2px solid red;
+   color: black;
+   background-color: white;
+   padding: 16px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   -webkit-transition-duration: 0.4s; 
+   transition-duration: 0.4s;
+   cursor: pointer;
+}
+
+#minButton:hover {
+    background-color:red; 
+    color: white;
+  }
+
+
+
+
+
+
+  #mulButton {
+    border: 2px solid red;
+   color: black;
+   background-color: white;
+   padding: 16px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   -webkit-transition-duration: 0.4s; 
+   transition-duration: 0.4s;
+   cursor: pointer;
+}
+
+#mulButton:hover {
+    background-color:red; 
+    color: white;
+  }
+
+
+
+
+
+
+  #divButton {
+    border: 2px solid red;
+   color: black;
+   background-color: white;
+   padding: 16px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   -webkit-transition-duration: 0.4s; 
+   transition-duration: 0.4s;
+   cursor: pointer;
+}
+
+#divButton:hover {
+    background-color:red; 
+    color: white;
+  }
+
+
