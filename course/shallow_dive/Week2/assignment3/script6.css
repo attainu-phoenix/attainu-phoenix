@@ -1,0 +1,17 @@
+body{
+	background-color: #4c3006;
+}
+
+#button{
+	position: fixed;
+	background-color: #0a1f3f;
+	color: #087c54;
+	border: solid orange 3px;
+	height: 100px;
+	width: 150px;
+	right:200px;
+	left: 600px;
+	top:10px;	
+	font-size: 2em;
+
+}
