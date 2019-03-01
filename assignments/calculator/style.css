@@ -1,0 +1,16 @@
+body {
+    background-color: lightcoral;
+}
+
+.center {
+    width: 400px;
+    margin: 0 auto;
+} 
+
+input {
+    font-size: 2em;
+}
+
+button {
+    font-size: 2em;
+}
