@@ -45,20 +45,23 @@ minButton.addEventListener("click", function minOp() {
 
 // Multiplication
 
-function mulButton() {
+mulButton = document.getElementById("mulButton");
+mulButton.addEventListener("click", function mulOp() {
 
 	getNum = parNum();
 	mul = getNum.number1 * getNum.number2;
 	showResult(mul);
 
-}
+})
 
 
 //Dividation
 
-function divButton() {
+divButton = document.getElementById("divButton");
+divButton.addEventListener("click", function divOp() {
 
 	getNum = parNum();
 	div = getNum.number1 / getNum.number2;
 	showResult(div);
-}
+
+})

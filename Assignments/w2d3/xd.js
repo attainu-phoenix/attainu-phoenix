@@ -7,9 +7,4 @@ magic.addEventListener("click", function herewego() {
 	alert("Hello This Is The Magic Of Javascript")
 });
 
-//Easy Way
 
-
- function magicFunction() {
-	alert(document.innerHTML=Date());
-}
