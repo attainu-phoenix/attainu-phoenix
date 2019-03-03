@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+}
+
+.center {
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid ;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+#result {
+    width: 200px;
+    margin-left: 120px;
+    font-size: 3em;
+    border: 4px solid black;
+    
+}
