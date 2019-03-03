@@ -1,0 +1,19 @@
+
+body{
+    background-color:grey;
+    border-bottom-left-radius:2em ;
+}
+
+
+
+h1{
+    color: blue;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+ul{
+    font-size: 20px;
+}
+}
