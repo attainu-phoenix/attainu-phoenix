@@ -22,7 +22,7 @@ plusOperation = function() {
 
 }
 
-plusButton.addEventListener("click", plusOperation);
+plusButton = document.addEventListener("click", plusOperation);
 
 //Minus operation
 
@@ -38,7 +38,7 @@ minusOperation = function() {
 
 }
 
-minusButton.addEventListener("click",minusOperation);
+minusButton = document.addEventListener("click", minusOperation);
 
 //Multiplication operation
 
@@ -54,7 +54,7 @@ mulOperation = function() {
 
 }
 
-mulButton.addEventListener("click",mulOperation);
+mulButton = document.addEventListener("click",mulOperation);
 
 //Division operation
 
@@ -70,4 +70,4 @@ divOperation = function() {
 
 }
 
-divButton.addEventListener("click",divOperation);
+divButton = document.addEventListener("click",divOperation);
