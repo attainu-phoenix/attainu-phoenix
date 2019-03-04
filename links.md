@@ -48,6 +48,7 @@
 1. [New HTML5 structural elements](https://dev.opera.com/articles/new-structural-elements-in-html5/)
 2. [HTML5 video introduction](https://dev.opera.com/articles/introduction-html5-video/)
 3. [input tag reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
+4. [HTML validator](https://validator.w3.org/)
 
 # CSS
 
@@ -79,6 +80,7 @@
 
 ## Other links
 1. [Styling lists](http://www.smashingmagazine.com/2009/12/11/styling-html-lists-with-css-techniques-and-resources/)
+2. [CSS validator](https://jigsaw.w3.org/css-validator/)
 
 # Javascript
 
