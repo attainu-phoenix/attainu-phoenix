@@ -44,12 +44,17 @@
 2. [http://www.scriptingmaster.com/html/HTML-reference-pages.asp](http://www.scriptingmaster.com/html/HTML-reference-pages.asp)
 3. [Dev Docs](https://devdocs.io/) - Contains documentation for HTML & CSS along with many other open source technologies.
 
+## Other links
+1. [New HTML5 structural elements](https://dev.opera.com/articles/new-structural-elements-in-html5/)
+2. [HTML5 video introduction](https://dev.opera.com/articles/introduction-html5-video/)
+3. [input tag reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
 
 # CSS
 
 ## Tutorials
-1. [https://htmldog.com/guides/html/](https://htmldog.com/guides/html/)
+1. [https://htmldog.com/guides/css/](https://htmldog.com/guides/css/)
 2. [https://learn.shayhowe.com/html-css/](https://learn.shayhowe.com/html-css/)
+3. [https://adamschwartz.co/magic-of-css/](https://adamschwartz.co/magic-of-css/)
 
 ## CSS layout tutorials
 1. [Floats](https://css-tricks.com/all-about-floats/)
@@ -57,6 +62,9 @@
 3. [CSS layouts](https://css-tricks.com/how-well-do-you-know-css-layout/)
 4. [The box model](https://css-tricks.com/the-css-box-model/)
 5. [Create a simple CSS grid system](https://medium.freecodecamp.org/css-grid-a-simple-layout-design-tutorial-5312a4a8bcaf)
+6. [More CSS floats](https://www.smashingmagazine.com/2007/05/css-float-theory-things-you-should-know/)
+7. [CSS positioning in depth](https://alistapart.com/article/css-positioning-101)
+8. [CSS layout - interactive tutorial](http://learnlayout.com/)
 
 ## Reference
 1. [https://developer.mozilla.org/en-US/docs/Web/CSS/Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
@@ -70,7 +78,7 @@
 2. [Normalize.css](https://necolas.github.io/normalize.css/)
 
 ## Other links
-1. [New HTML5 structural elements](https://dev.opera.com/articles/new-structural-elements-in-html5/)
+1. [Styling lists](http://www.smashingmagazine.com/2009/12/11/styling-html-lists-with-css-techniques-and-resources/)
 
 # Javascript
 
