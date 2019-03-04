@@ -37,9 +37,12 @@
 ## Tutorials
 1. [https://htmldog.com/guides/html/](https://htmldog.com/guides/html/)
 2. [https://learn.shayhowe.com/html-css/](https://learn.shayhowe.com/html-css/)
+3. [https://diveintohtml5.info/](https://diveintohtml5.info/)
 
 ## Reference
 1. [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+2. [http://www.scriptingmaster.com/html/HTML-reference-pages.asp](http://www.scriptingmaster.com/html/HTML-reference-pages.asp)
+3. [Dev Docs](https://devdocs.io/) - Contains documentation for HTML & CSS along with many other open source technologies.
 
 
 # CSS
@@ -51,13 +54,23 @@
 ## CSS layout tutorials
 1. [Floats](https://css-tricks.com/all-about-floats/)
 2. [Centering elements](https://css-tricks.com/centering-css-complete-guide/)
-3. [https://css-tricks.com/how-well-do-you-know-css-layout/](https://css-tricks.com/how-well-do-you-know-css-layout/)
-3. [https://medium.freecodecamp.org/css-grid-a-simple-layout-design-tutorial-5312a4a8bcaf](https://medium.freecodecamp.org/css-grid-a-simple-layout-design-tutorial-5312a4a8bcaf)
+3. [CSS layouts](https://css-tricks.com/how-well-do-you-know-css-layout/)
+4. [The box model](https://css-tricks.com/the-css-box-model/)
+5. [Create a simple CSS grid system](https://medium.freecodecamp.org/css-grid-a-simple-layout-design-tutorial-5312a4a8bcaf)
 
 ## Reference
 1. [https://developer.mozilla.org/en-US/docs/Web/CSS/Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 2. [https://tympanus.net/codrops/css_reference/](https://tympanus.net/codrops/css_reference/)
 3. [https://cssreference.io/](https://cssreference.io/)
+4. [CSS vocabulary](http://nimbupani.com/css-vocabulary.html)
+5. [Dev Docs](https://devdocs.io/) - Contains documentation for HTML & CSS along with many other open source technologies.
+
+## Useful CSS libraries
+1. [Eric Meyer's CSS reset](https://meyerweb.com/eric/tools/css/reset/)
+2. [Normalize.css](https://necolas.github.io/normalize.css/)
+
+## Other links
+1. [New HTML5 structural elements](https://dev.opera.com/articles/new-structural-elements-in-html5/)
 
 # Javascript
 
