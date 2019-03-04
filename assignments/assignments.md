@@ -55,3 +55,10 @@ The output should show:
 .
 2
 ```
+
+## Day 4
+
+#### Create a simple calculator using JS with the UI looking like this -
+![my mail page](images/calculator.png)
+1. The user input should be validated.
+2. All the arithmetic operations should be implemented using functions.
