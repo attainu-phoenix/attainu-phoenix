@@ -1,0 +1,28 @@
+body{
+    background-color: blue
+}
+#n1{
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top:10%;
+    }
+#n2{
+    margin-left:50%;
+    margin-right:50%;
+    margin-top:1%;
+}
+#addbtn{
+    margin-left: 50%;
+    margin-top:2%;
+    
+}
+.size{
+    font-size:40px;
+}
+p{
+    margin-left:50%;
+    margin-right:50%;
+    margin-top:1%;
+    font-size: 3em;
+    color: black;
+}
