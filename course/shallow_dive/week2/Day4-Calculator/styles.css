@@ -1,0 +1,23 @@
+body {
+    background-color: orange;
+}
+
+.center {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+input {
+    font-size: 2em;
+}
+
+button {
+    font-size: 2em;
+}
+
+#addButton, #minusButton, #mulButton {
+    margin-right: 30px;
+}
+
+
