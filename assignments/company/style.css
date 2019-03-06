@@ -1,0 +1,19 @@
+header {
+    color: aliceblue;
+    background-color: black;
+    padding: 7px;
+    
+}
+
+strong {
+    color: white;
+    padding: 3px;
+}
+
+hr {
+    border: 2px solid wheat;
+}
+
+img {
+    height: 10em;
+}
