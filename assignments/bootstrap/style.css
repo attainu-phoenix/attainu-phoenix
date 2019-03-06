@@ -1,0 +1,10 @@
+a{
+    color: white;
+    font-size: 1rem;
+}
+a:hover{
+    color:white;
+}
+hr{
+    border: 1px solid lightgrey;
+}
