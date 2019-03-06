@@ -1,0 +1,10 @@
+fieldset {
+  background-color: brown;
+  width: 400px;
+  margin: 0 auto;
+  font-size: 2em;
+}
+
+#result {
+  text-align: center;
+}
