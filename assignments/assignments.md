@@ -33,17 +33,6 @@
 
 ## Day 1
 
-#### Write a Javascript program that prints multiplication table of 5 upto 10.
-The output should show:
-```
-1 * 5 = 5
-2 * 5 = 10
-.
-.
-.
-10 * 5 = 50
-```
-
 #### Write a Javascript program that prints even numbers from 1 to 100 in descending order
 The output should show:
 ```
@@ -55,6 +44,25 @@ The output should show:
 .
 2
 ```
+
+## Day 2
+
+#### Write a Javascript program that prints multiplication table of 5 upto 10.
+The output should show:
+```
+1 * 5 = 5
+2 * 5 = 10
+.
+.
+.
+10 * 5 = 50
+```
+
+## Day 3
+
+#### Create a HTML page with a button that should alert a message when it is clicked
+
+1. Use JS event handler for receiving the click event
 
 ## Day 4
 
