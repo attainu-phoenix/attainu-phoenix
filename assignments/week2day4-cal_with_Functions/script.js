@@ -32,6 +32,12 @@ plusButton = document.getElementById("plusButton");
 plusOperation = function(){
 
     numberValues = getValues();
+
+//Check if User has entered two numbers
+    if(numberValues.number1 == "" || numberValues.number2 == "") {
+        alert("Please enter a number");
+        return;
+    }
     sum = parseInt(numberValues.number1) + parseInt(numberValues.number2);
 
     showResult(sum);
@@ -48,9 +54,15 @@ minusOperation = function(){
 
 numberValues = getValues();
 
-minus = parseInt(numberValues.number1) - parseInt(numberValues.number2);
+//Check if User has entered two numbers
+    if(numberValues.number1 == "" || numberValues.number2 == "") {
+        alert("Please enter a number");
+        return;
+    }
 
-showResult(minus);
+    minus = parseInt(numberValues.number1) - parseInt(numberValues.number2);
+
+    showResult(minus);
 
 }
 
@@ -63,6 +75,12 @@ multButton = document.getElementById("multButton");
 multOperation = function() {
 
     numberValues = getValues();
+
+    //Check if User has entered two numbers
+    if(numberValues.number1 == "" || numberValues.number2 == "") {
+        alert("Please enter a number");
+        return;
+    }
     mult = parseInt(numberValues.number1) * parseInt(numberValues.number2);
 
     showResult(mult);
@@ -72,16 +90,22 @@ multOperation = function() {
 multButton.addEventListener("click", multOperation);
 
 
-
 //division  operation
 
 divisionButton = document.getElementById("divisionButton");
 divisionOperation = function(){
 
     numberValues = getValues();
+    
+    //Check if User has entered two numbers
+    
+    if(numberValues.number1 == "" || numberValues.number2 == "") {
+        alert("Please enter a number");
+        return;
+    }
     division = parseInt(numberValues.number1) / parseInt(numberValues.number2);
 
-    showResult(divisin);
+    showResult(division);
 
 }
 

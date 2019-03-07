@@ -1,0 +1,10 @@
+
+label {
+    display: block;
+    padding: 10px;
+}
+
+fieldset {
+    width: 300px;
+    margin: 0 auto;
+}
