@@ -20,15 +20,14 @@ validateInput = function(userInputs) {
     if(userInputs.userName == "" || userInputs.password == "") {
         return false;
     } 
+    
     for(count = 0; count < users.length; count++) {
         if(userInputs.userName == users[count].userName && userInputs.password == users[count].password) {
             return "success";
-        } else if(count < users.length) {
-            continue;
-        } else {
-            return "error";
-        }
+        } 
     }    
+
+    return "error";
 }
 
 successFulLogin = function() {
