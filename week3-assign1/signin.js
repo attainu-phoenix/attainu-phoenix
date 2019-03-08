@@ -6,21 +6,21 @@ showresult=function(){
     name1 = document.getElementById("name1").value;
     name2 = document.getElementById("name2").value;
 
-
+    if(name1== "" || name2==""){
+        alert("please enter valid input");
+    }
 
 
     if(name1== "surinder" && name2=="1235"){
 
-        console.log("welcome surinder");
+        alert("welcome surinder");
     }else{
-        console.log("your username or password is incorrect");
+        alert("your username or password is incorrect");
     }
    
 
 
-    if(name1== "" || name2==""){
-        alert("please enter valid input");
-    }
+    
 }
 
 
