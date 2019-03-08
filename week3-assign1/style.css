@@ -1,0 +1,24 @@
+body{
+    background-color:gray;
+}
+
+H2{
+    text-align: center;
+}
+
+
+
+.content{
+   background:  aqua;
+   border-color:red;
+   
+   height: 400px;
+   width: 400px;
+   margin: 0 auto;
+   padding: 4em 4em 4em 4em;
+  
+}
+#button{
+    align-self: center;
+    size: 40 em;
+}
