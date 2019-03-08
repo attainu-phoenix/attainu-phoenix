@@ -1,0 +1,8 @@
+body {
+background-color: rgb(109, 178, 199);
+}
+.center {
+    background-color: rgb(175, 219, 236);
+    width: 500px;
+    margin: auto;
+}

@@ -1,0 +1,20 @@
+table {
+	width : 100%;
+	text-align : center-left;
+}
+thead {
+	text-align : center-left;
+}
+h1 {
+	color : #010101;
+}
+h3 {
+	color : #010101;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
