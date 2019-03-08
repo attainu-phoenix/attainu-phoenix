@@ -1,0 +1,47 @@
+h2{
+    
+    padding: 30px 35px;
+    margin: -10px -50px;
+    text-align:center;
+    
+    }
+
+.container{
+        width: 900px;
+        height: 610px;
+        margin:35px auto;
+        }
+.main{
+        width: 250px;
+        padding: 10px 50px 25px;
+        border: 2px solid gray;
+        border-radius: 30px;
+        margin:50px auto;
+        background-color: rgb(224, 231, 238);
+        }
+
+input[type=text],input[type=password]{
+            width: 100%;
+            height: 40px;
+            padding: 5px;
+            margin-bottom: 25px;
+            margin-top: 5px;
+            border: 2px solid #ccc;
+            color: #4f4f4f;
+            font-size: 16px;
+            }
+label{
+           
+            display:block;
+            
+            }
+input[type=button]{
+                font-size: 16px;
+                background: red;
+                border: 1px solid red;
+                color: blue;
+                cursor: pointer;
+                width: 100%;
+                border-radius: 5px;
+                padding: 10px 0;
+                }
