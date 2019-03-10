@@ -14,26 +14,67 @@ setResult=function(res){
 
 document.getElementById("addbtn").addEventListener("click",function add(){
     Numbers=getText();
-    if(Numbers.num1 == ""){
-        alert("please enter the number");
+    if(isNaN(Numbers.num1)==true){
+        alert("please enter the first number");
         return;
     }    
-    res=Numbers.num1+Numbers.num2;
-    setResult(res);
+    else if(isNaN(Numbers.num2)==true){
+        alert("please enter the second number");
+        return;
+    }
+    
+    else {
+        res=Numbers.num1+Numbers.num2;
+        setResult(res);
+    }
+    
+   
 });
 document.getElementById("subbtn").addEventListener("click",function sub(){
     Numbers=getText();
-    res=Numbers.num1-Numbers.num2;
-    setResult(res);
-});
+    if(isNaN(Numbers.num1)==true){
+        alert("please enter the first number");
+        return;
+    }    
+    else if(isNaN(Numbers.num2)==true){
+        alert("please enter the second number");
+        return;
+    }
+    
+    else {
+        res=Numbers.num1-Numbers.num2;
+        setResult(res);
+    }});
 document.getElementById("mulbtn").addEventListener("click",function multiply(){
     Numbers=getText();
-    res=Numbers.num1*Numbers.num2;
-    setResult(res);
+    if(isNaN(Numbers.num1)==true){
+        alert("please enter the first number");
+        return;
+    }    
+    else if(isNaN(Numbers.num2)==true){
+        alert("please enter the second number");
+        return;
+    }
+    
+    else {
+        res=Numbers.num1*Numbers.num2;
+        setResult(res);
+    }
 });
 document.getElementById("divbtn").addEventListener("click",function div(){
     Numbers=getText();
-    res=Numbers.num1/Numbers.num2;
-    setResult(res);
+    if(isNaN(Numbers.num1)==true){
+        alert("please enter the first number");
+        return;
+    }    
+    else if(isNaN(Numbers.num2)==true){
+        alert("please enter the second number");
+        return;
+    }
+    
+    else {
+        res=Numbers.num1/Numbers.num2;
+        setResult(res);
+    }
 });
 
