@@ -1,10 +1,16 @@
 plusButton = document.getElementById("add");
 plusOperation= function(){
     
-    numberValues = getValues();
+    firstBlank=document.getElementById("blank1");
+    secondBlank=document.getElementById("blank2");
+    
+    sum= parseInt(firstBlank.value) + parseInt(secondBlank.value);
 
-    sum= parseInt(numberValues.firstBlank) + parseInt(numberValues.secondBlank);
-   
+    if(firstBlank.value == "" || secondBlank.value == "") {
+        alert("Please Enter Any Number in Both BLANKS");
+        return;
+    }   
+    
     result=document.getElementById("result");
     result.innerText =sum;  
 }
@@ -15,6 +21,11 @@ minusOperation= function(){
     
     firstBlank=document.getElementById("blank1");
     secondBlank=document.getElementById("blank2");
+
+    if(firstBlank.value == "" || secondBlank.value == "") {
+        alert("Please Enter Any Number in Both BLANKS");
+        return;
+    }   
 
     minus = parseInt(firstBlank.value) - parseInt(secondBlank.value);
    
@@ -29,6 +40,11 @@ mulOperation= function(){
     firstBlank=document.getElementById("blank1");
     secondBlank=document.getElementById("blank2");
 
+    if(firstBlank.value == "" || secondBlank.value == "") {
+        alert("Please Enter Any Number in Both BLANKS");
+        return;
+    }   
+
     mul = parseInt(firstBlank.value) * parseInt(secondBlank.value);
    
     result=document.getElementById("result");
@@ -42,9 +58,17 @@ diviOperation= function(){
     firstBlank=document.getElementById("blank1");
     secondBlank=document.getElementById("blank2");
 
+    if(firstBlank.value == "" || secondBlank.value == "") {
+        alert("Please Enter Any Number in Both BLANKS");
+        return;
+    }   
+
     divi = parseInt(firstBlank.value) / parseInt(secondBlank.value);
    
     result=document.getElementById("result");
     result.innerText =divi;    
 }
 diviButton.addEventListener ("click", diviOperation);
+
+clearBlanks=document.getElementById("clear");
+onclick="clear"
