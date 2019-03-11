@@ -69,6 +69,3 @@ diviOperation= function(){
     result.innerText =divi;    
 }
 diviButton.addEventListener ("click", diviOperation);
-
-clearBlanks=document.getElementById("clear");
-onclick="clear"
