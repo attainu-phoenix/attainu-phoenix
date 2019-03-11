@@ -1,16 +1,16 @@
-function validate() {
-    
-    var username = document.login("usrname").value;
-    var password = document.login("psword").value;
+submitButton=document.getElementById("button")
 
-    if (username == "username" && password == "password") {
-        alert("You have Logged in");
-        return;
+validateForm= function() {
+        username = document.getElementById("username").value;
+        password = document.getElementById("password").value;
+
+    if(username == "a" || password == "bb"){
+    alert("You have Logged in");
+    return true;
     }
         else {
-
-            alert("Wrong Username and Password");
-            return;
-
+        alert("Enter Details Correctly");
+        return;
     }
 }
+submitButton.addEventListener("click", validateForm);

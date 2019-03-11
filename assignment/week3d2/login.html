@@ -9,21 +9,20 @@
 </head>
 <body>
  <div class="body">
-     <form name="login" >
-          <div class="h1">
+          <div id="heading">
               <legend><h1>Let Me Check Do I Know You?</h1></legend>
            </div>   
-          <div class="space">
-               <ul><b>Username<input type="userrname" name="usrname" placeholder=""></b></ul>
-               <ul><b>Password<input type="password" name="psword" placeholder=""></b></ul>
+          <div id="required">
+               <ul><b>Username<input type="text" id="username" placeholder=""></b></ul>
+
+               <ul><b>Password<input type="password" id="password" placeholder=""></b></ul>
           </div>
 
-          <div class="button">
-               <input type="submit" value='login' onsubmit='validateForm();'/>
+          <button id="button">Login</button>
           </div> 
      </form>     
  </div>
-       <script> src=login.js </script>
+       <script src="login.js" ></script>
  
 </body>
 </html>
