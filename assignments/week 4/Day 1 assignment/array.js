@@ -1,5 +1,5 @@
-function array(arr, elem) {
+function search(arr, elem) {
   return arr.indexOf(elem);
 }
 
-array([1, 2, 3, 4], 2);
+search([1, 2, 3, 4], 2);
