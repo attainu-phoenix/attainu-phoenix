@@ -1,5 +1,10 @@
 function search(arr, elem) {
-  return arr.indexOf(elem);
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] == elem) {
+      return i;
+    }
+  }
+  return -1;
 }
 
-search([1, 2, 3, 4], 2);
+console.log(search([1, 2, 3, 4], 2));
