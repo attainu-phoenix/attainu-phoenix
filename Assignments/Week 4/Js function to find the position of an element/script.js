@@ -19,6 +19,7 @@ listen.addEventListener("click", () => {
     result = document.getElementById("userop")
 
     userInput = document.getElementById("user").value;
+    
     funresult = filter(userInput, arrayElements);
 
 
