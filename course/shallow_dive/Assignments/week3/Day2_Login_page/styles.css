@@ -1,0 +1,43 @@
+body {
+    background-color: skyblue;
+}
+
+.center {
+    margin: 0 auto;
+    width: 400px;
+}
+
+label {
+    display: flex;
+    padding: 30px;
+}
+
+fieldset {
+    background-color: grey;
+    font-size: 1.5em;
+}
+
+#username, #password {
+    float: right;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+#password {
+    margin-left: 35px;
+}
+
+#login {
+    float: right;
+    font-size: 1em;
+}
+
+#success {
+    color: green;
+}
+
+#error {
+    color: red;
+}
+
