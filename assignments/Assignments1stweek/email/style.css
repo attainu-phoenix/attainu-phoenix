@@ -1,0 +1,72 @@
+h1{
+    border: solid black 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 180px;
+    margin-right: 100px;
+    margin-top:0px;
+    margin-bottom:2px;
+} 
+
+
+.heading{
+    border: solid black 4px;
+    margin-bottom: 30px;
+}
+
+.email{
+    display: flex;
+}
+
+.nav{
+    
+    padding-right:130px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 90px;
+    font-size: 2em;
+    border: solid black 2px;
+}
+
+.content{
+    border: solid black 3px;
+    padding-left: 0;
+    padding-right:0;
+    padding-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 110px;
+    font-size: 1.5em;    
+}
+
+.tableheading{
+    text-align: left;
+    align-self: center;
+	background-color:gray;
+}
+
+.colfirst{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.colsecond{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.colthird{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+

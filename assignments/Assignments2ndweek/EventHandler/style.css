@@ -1,0 +1,17 @@
+body{
+    background-color: grey;
+    align-self: center;
+
+}
+#btnlabel{
+align-self: center;
+margin-top: 20px;
+font-size: 30px;
+margin-left:40%;
+margin-top:6px;
+}
+#eventBtn{
+    margin-top:30px;
+    font-size:30px;
+    margin-left:50%;
+}
