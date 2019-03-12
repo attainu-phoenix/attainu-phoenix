@@ -21,7 +21,7 @@ function Search(arr, ele) {
     if (arr[i] == ele) {
       return "Number Found at Location "+i;
     }
-  } return null;
+  } return -1;
 }
 
 
