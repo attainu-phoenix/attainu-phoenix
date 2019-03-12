@@ -1,0 +1,15 @@
+body {
+	background-color : blue;
+}
+label {
+	display : block;
+	padding : 15px;
+}
+fieldset {
+	width : 300px;
+	margin : 0 auto;
+	background-color: orange;
+}
+button {
+	float : right;
+}
