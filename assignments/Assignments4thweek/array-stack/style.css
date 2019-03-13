@@ -1,0 +1,15 @@
+h1{
+    margin-top:30%;
+    margin-left:10%;
+}
+hr{
+    border-width: 4px;
+    border-color: black;
+}
+button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+p{
+    font-size: 40px;
+}
