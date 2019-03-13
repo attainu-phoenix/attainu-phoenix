@@ -1,13 +1,16 @@
-  for(i=1; i<100; i++) {
-    if(i % 2 != 0) {
-    return true;
-    }else{
-      return false;
+  oddNumbers = function(num) {
+    if(num%2 !== 0 ) {
+        return true;}
+        else{return false;
+      }
     }
-  }
-   {if (i==true){
-     square=i*i;
-     console.log(i+"="square)
-   }
- }
 
+square = function(num) {
+    return num*num;
+} 
+
+for(num = 1; num <= 100; num++){
+  if (oddNumbers(num)== true) {
+   result=square(num);}
+   console.log(result);
+}
