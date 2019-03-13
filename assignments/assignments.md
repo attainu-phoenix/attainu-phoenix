@@ -98,7 +98,18 @@ Contact Us page -
 
 ## Day 1
 
-#### Write a javascript function that takes an array and a value and search that value in the array.
+#### Write a Javascript function that takes an array and a value and search that value in the array.
 1. Function should take two arguments - an array and a value to search inside the array.
 2. If the element is found, the function should return the position of the element in an array.
 3. If the element is not found, the function should return "-1".
+
+## Day 3
+
+#### Create a Javascript app that emulates "Stack" behavior.
+![stack](images/stack.PNG)
+1. Push button should add value in the textbox to stack.
+2. Pop button should remove the last element added to stack.
+3. There should be validation for push button. Empty values should not be added to stack.
+4. Array can be used as a stack along with push() and pop() methods.
+5. During each operation, the stack display area should show the current stack contents.
+
