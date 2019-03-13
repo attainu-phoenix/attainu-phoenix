@@ -1,0 +1,25 @@
+/* custom css to style and overwrite bootstrap methods
+  @mayur_bhandare
+  all hex color picked from uicolorpicker.com */
+
+
+body {
+    background: #99AAAB !important;
+    /* Used important so that it will override bootstrap method  */
+}
+
+.head {
+    margin-top: 10%;
+}
+
+table.table-bordered>tbody>tr>td {
+    border: 3px solid #7A942E;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #F9690E;
+}
