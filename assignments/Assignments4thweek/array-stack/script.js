@@ -41,8 +41,6 @@ function popValue(){
 
 function displayArray(){
     res=document.getElementById("resultArea");
-    arr.join("|")
-    console.log(arr);
     var result1=arr.join("  ");
     
     res.innerText=result1;
