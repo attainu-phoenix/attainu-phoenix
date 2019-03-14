@@ -1,3 +1,5 @@
+"use strict";
+
 var players = [
   { name: "Roger Federer", rank: 1 },
   { name: "Rafel Nadal", rank: 2 },
@@ -11,7 +13,7 @@ var players = [
   { name: "Arthur Ashe", rank: 8 }
 ];
 
-top10players = () => {
+var top10players = () => {
   for (var i in players) {
     if (players[i].rank <= 10) {
       console.log(players[i].name);
