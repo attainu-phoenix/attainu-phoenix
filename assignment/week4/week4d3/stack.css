@@ -1,0 +1,14 @@
+body{
+    background-color: lightgrey;
+}
+
+.content{
+    text-align: center;
+}
+
+#blank{
+    width: 20%;
+    height: 10%;
+}
+
+
