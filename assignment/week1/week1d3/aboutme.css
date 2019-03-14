@@ -1,0 +1,19 @@
+body{
+    background-color: grey;
+    font-size: 1.5em;
+}
+
+.content{
+    text-anchor: middle;
+    padding-left: 35%;
+}
+
+.name{
+    text-align: center;
+}
+
+
+
+.movies{
+    padding-left: 35%;
+}
