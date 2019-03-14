@@ -31,9 +31,6 @@ for(k=0;k<output.length;k++){
     if(output[k]<=10){
         console.log(players[k]);
     }
-    else{
-        console.log("No player in rank 1 to 10");
-    }
     
 }
 }
