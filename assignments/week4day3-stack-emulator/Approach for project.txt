@@ -1,0 +1,15 @@
+1.  Creat project docs like html, script and style.css.
+2.  Creat a html page with
+	1.  Input text box.
+	2.  Two buttons 1. Push 2. Pop
+	3.  To display contents of the array in some H1 element.
+
+3.  Push button:  add.EventListener to it
+	Validate push button for empty box 
+4.  Pop button : add.eventlistener to it.
+	Validate push button for empty box.
+
+5.  Create an Array which can take values from input text box when Push button is clicked.  When Pop button is clicked, the values should be removed.
+
+
+
