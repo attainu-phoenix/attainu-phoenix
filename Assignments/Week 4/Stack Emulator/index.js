@@ -1,6 +1,6 @@
 "use strict";
 
-let ar = [1, 2, 3, 4];
+let ar = [];
 
 document.getElementById("op").innerText = ar;
 
@@ -12,7 +12,7 @@ pushBtn.addEventListener("click", () => {
     alert("Enter The Number Please..");
   } else {
     ar.push(pushInput);
-    document.getElementById("op").innerText = ar;
+    document.getElementById("op").innerText = ar.join(" ");
     alert(`You Have Added ${pushInput} To The Array`);
     document.getElementById("ip").value = "";
   }
@@ -25,7 +25,7 @@ popBtn.addEventListener("click", () => {
     alert("There is nothing left in stack to pop");
   } else {
     let removePop = ar.pop();
-    document.getElementById("op").innerText = ar;
+    document.getElementById("op").innerText = ar.join(" ");
     alert(`You Have Removed ${removePop} From The Array`);
   }
 });
@@ -37,7 +37,7 @@ shiftBtn.addEventListener("click", () => {
     alert("There is nothing left in stack to shift");
   } else {
     let removeShift = ar.shift();
-    document.getElementById("op").innerText = ar;
+    document.getElementById("op").innerText = ar.join(" ");
     alert(`You Have Removed ${removeShift} From The Array`);
   }
 });
