@@ -1,15 +1,16 @@
+"use strict";
 var stack = [];
 var push = document.getElementById("push");
 var pop = document.getElementById("pop");
 var result = document.getElementById("result");
 
-pushFunc = () => {
+var pushFunc = () => {
   var ele = document.getElementById("ele").value;
   stack.push(ele);
   result.innerHTML = stack.join();
 };
 
-popFunc = () => {
+var popFunc = () => {
   stack.pop();
   result.innerHTML = stack.join();
 };
