@@ -7,7 +7,6 @@ elements should be removed from the stack array.
 */
 
 //Function to get values from text input box.
-'use strict';
 getValue = function (){
 number = document.getElementById("number").value;
 resultObject = {
@@ -28,7 +27,7 @@ stack.push(numberValue.number);
 var myNewString = stack.join();
 
 resultElement = document.getElementById("result");
-resultElement.innerText = stack.join(' ');
+resultElement.innerText = stack.join();
 }
 
 pushButton = document.getElementById("pushButton");
