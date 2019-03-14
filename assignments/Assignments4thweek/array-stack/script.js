@@ -41,9 +41,11 @@ function popValue(){
 
 function displayArray(){
     res=document.getElementById("resultArea");
+    arr.join("|")
+    console.log(arr);
+    var result1=arr.join("  ");
     
-    var result1=arr.toString();
-    res.innerHTML=result1;
+    res.innerText=result1;
 }
 
 document.getElementById("pushBtn").addEventListener("click",pushValue);
