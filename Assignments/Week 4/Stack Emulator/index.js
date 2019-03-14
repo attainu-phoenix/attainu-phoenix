@@ -21,15 +21,23 @@ pushBtn.addEventListener("click", () => {
 let popBtn = document.getElementById("pop");
 
 popBtn.addEventListener("click", () => {
-  let removePop = ar.pop();
-  document.getElementById("op").innerText = ar;
-  alert(`You Have Removed ${removePop} From The Array`);
+  if (ar.length == 0) {
+    alert("There is nothing left in stack to pop");
+  } else {
+    let removePop = ar.pop();
+    document.getElementById("op").innerText = ar;
+    alert(`You Have Removed ${removePop} From The Array`);
+  }
 });
 
 let shiftBtn = document.getElementById("shift");
 
 shiftBtn.addEventListener("click", () => {
-  let removeShift = ar.shift();
-  document.getElementById("op").innerText = ar;
-  alert(`You Have Removed ${removeShift} From The Array`);
+  if (ar.length == 0) {
+    alert("There is nothing left in stack to shift");
+  } else {
+    let removeShift = ar.shift();
+    document.getElementById("op").innerText = ar;
+    alert(`You Have Removed ${removeShift} From The Array`);
+  }
 });
