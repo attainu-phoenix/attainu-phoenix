@@ -6,11 +6,18 @@ var result = document.getElementById("result");
 
 var pushFunc = () => {
   var ele = document.getElementById("ele").value;
-  stack.push(ele);
-  result.innerHTML = stack.join();
+  if (!ele) {
+    alert("please enter an element to push into stack");
+  } else {
+    stack.push(ele);
+    result.innerHTML = stack.join();
+  }
 };
 
 var popFunc = () => {
+  if (stack.length == 0) {
+    alert("stack is empty, nothing to pop");
+  }
   stack.pop();
   result.innerHTML = stack.join();
 };
