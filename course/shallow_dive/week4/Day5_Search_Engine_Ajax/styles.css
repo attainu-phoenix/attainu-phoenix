@@ -1,0 +1,16 @@
+.header1 {
+    color: teal;
+}
+
+#searchInput {
+    border: 2px solid #7f838a;
+    margin-top: 1em;
+}
+
+#hr {
+    border: 1px solid #7f838a;
+}
+
+#searchButton {
+    margin-top: 1em;
+}
