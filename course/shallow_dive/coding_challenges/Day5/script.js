@@ -17,7 +17,7 @@ var loadContent = function() {
     request.send();
 
     request.onreadystatechange = function() {
-        if(request.readystate == 4 && request.status == 200) {
+        if(request.readyState == 4 && request.status == 200) {
             var jsonData = JSON.parse(request.responseText)
             updateContent(jsonData);
         }
