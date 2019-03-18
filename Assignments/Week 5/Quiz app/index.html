@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title> Random Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <div class="row justify-content-center ">
+            <div class="col-6 text-center ">
+
+                <h3 class="title display-4">Random Quiz</h3>
+
+                <h4 id="question" class="question"></h4>
+                <!-- input box -->
+                <input type="text" class="form-control" placeholder="Please Answer here" id="inputText" />
+                <br />
+                <!-- button -->
+                <button type="button" class="btn btn-outline-success" id="submit">
+                    submit
+                </button>
+                <hr>
+                <h6>You Are Running Out Of Time</h6>
+                <!-- countdown -->
+                <p id="clock" class="display-4"></p>
+
+            </div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
