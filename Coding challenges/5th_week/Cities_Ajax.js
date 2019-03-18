@@ -12,7 +12,7 @@ var loadContent=function() {
 
 function logCities(City) {
     for(var i=0;i<City.length;i++) {
-        if ((City.state[i]!= Maharashtra)||(City.state[i]!=Gujarat)) {
+        if ((City.state[i]!=="Maharashtra")||(City.state[i]!=="Gujarat")) {
             continue;
         } else {
             console.log(City.name[i]);
