@@ -3,11 +3,11 @@ var updateContent = function(data) {
   for (var i = 0; i < data.length; i++) {
     if (data[i].state == "Maharashtra" || data[i].state == "Gujarat") {
       
-      var p =document.createElement("p");
-       p.innerText = data[i].name;
+      var li =document.createElement("li");
+       li.innerText = data[i].name;
 
         var cities =document.getElementById("cities");
-         cities.appendChild(p);
+         cities.appendChild(li);
     }
   }
 };
