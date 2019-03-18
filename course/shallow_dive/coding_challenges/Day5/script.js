@@ -4,8 +4,6 @@ var updateContent = function(data) {
     for(var counter = 0; counter < data.length; counter = counter + 1) {
         if(data[counter].state == "Maharashtra" || data[counter].state == "Gujarat") {
             console.log(data[counter].name);
-        } else if(counter < data.length) {
-            continue;
         }
     }
     return false;
