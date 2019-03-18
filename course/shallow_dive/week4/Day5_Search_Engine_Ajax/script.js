@@ -16,6 +16,8 @@ var updateContent = function(data) {
         a.innerHTML = data.RelatedTopics[counter].FirstURL;
         section.appendChild(a);
         a.href = data.RelatedTopics[counter].FirstURL;
+
+        section.append("\n");
     }
 };
 
@@ -27,7 +29,7 @@ var loadContent = function() {
     request.open("get", url);
     request.send();
     request.onreadystatechange = function() {
-        if(request.readystate == 4 && request.status == 200) {
+        if(request.readyState == 4 && request.status == 200) {
             var jsonData = JSON.parse(request.responseText);
             updateContent(jsonData);
         }
