@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="loadQuestion()" id="body">
+    <div class="container-fluid">
+        <div class="row" style="margin-top:5%">
+            <div class="col-md-7 offset-md-3">
+                <h2 id="question">Random question loaded from quiz.json</h2>
+            </div>
+        </div>
+        <div class="col-md-7 offset-md-3">
+            <label for="answer">Answer</label>
+            <input class="form-control form-control-lg" type="text" name="answer" id="answer">
+            <p></p>
+
+        </div>
+        <div class="col-md-7 offset-md-2">
+            <div class="row justify-content-around align-items-center">
+                <button type="button" class="btn btn-secondary btn-lg" id="submitAnswer">Submit</button>
+                <h3 class="success" id="successMessageId">Correct</h3>
+                <h3 class="error" id="wrongMessageId">Wrong</h3>
+            </div>
+           
+        </div>
+        <p></p>
+        <p></p>
+        <div class="col-md-7 offset-md-3">
+            <h1 id="timer">30</h1>
+        </div>
+      
+
+    </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
