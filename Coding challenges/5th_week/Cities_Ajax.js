@@ -15,7 +15,7 @@ function logCities(City) {
         if ((City.state[i]!=="Maharashtra")||(City.state[i]!=="Gujarat")) {
             continue;
         } else {
-            console.log(City.name[i]);
+            console.log(City[i].name);
         }
 
     }
