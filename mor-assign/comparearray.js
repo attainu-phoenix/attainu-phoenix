@@ -1,25 +1,22 @@
 
-'use strict'
-var array1 =[22,44,55,66];
-var array2 =[22, 44,55,66];
-var comparearray= function(){
+'use strict';
 
-  if(array1.lenght == array2.lenght){
-    console.log("arrays are equal");
-  }else{
-    console.log("arrays are not equal");
-  }
-  for (var i=0;i<=array1.lenght;i++){
-    for(var j=0;j<=array2.lenght;j++){
-        if(array1[i] == array2[j]){
-          console.log(array1[i]= array2[j])
-        }else{
-          console.log("not equal");
-        }
+var array1 = [1, 2, 3, 4];
+var array2 = [1, 2, 3, 4, 5];
 
-    }
+var compare = function(array1, array2){
+if(array1.length != array2.length){
+  return false;
   
-
- }
 }
-comparearray();
+
+for(var i =0;i<=array1.length;i++){
+  if(array1[i] == array2[i]){
+    return true;
+  }
+  
+}
+return false;
+}
+var result = compare(array1, array2);
+console.log(result);
