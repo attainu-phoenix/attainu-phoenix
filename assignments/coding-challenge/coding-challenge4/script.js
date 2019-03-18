@@ -19,7 +19,7 @@ var loadContent = function() {
     request.onreadystatechange = function(data) {
         if(request.readyState == 4 && request.status == 200) {
             var cities = JSON.parse(request.responseText)
-           1
+           
             printCities(cities);
 
         }
