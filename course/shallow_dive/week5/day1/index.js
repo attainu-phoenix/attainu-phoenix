@@ -33,25 +33,30 @@ var checkanswer = function(data, interval) {
         alert("RIght Answer");
         clearInterval(interval);
         document.getElementById('count').innerText = 'Right Answer';
+         var x = document.getElementById('submit');
+          x.setAttribute("disabled","");
 
 
     } else {
         alert("Wrong ANSWER");
         clearInterval(interval);
         document.getElementById('count').innerText = 'Wrong Answer';
+         var x = document.getElementById('submit');
+          x.setAttribute("disabled","");
 
     }
 }
 
 var counter = function() {
-    var count = 20;
+    var count = 30;
     interval = setInterval(function() {
-        document.getElementById('count').innerText = count;
+        document.getElementById('count').innerText = count + "sec";
         count--;
         if (count === 0) {
             clearInterval(interval);
             document.getElementById('count').innerText = 'You Are Out of Time';
-            // or...
+            var x = document.getElementById('submit');
+          x.setAttribute("disabled","");
 
         }
     }, 1000);
