@@ -3,8 +3,13 @@
 var updateContent = function(data){
     var section = document.getElementById("section");
     section.innerHTML = "";
-    for(var i=0;i<=data.RelatedTopics.length;i++){
-        var result = data.RelatedTopics[i].FirstURL;
+    for(var i=0;i<data.RelatedTopics.length;i++){
+        var result;
+        // console.log(data.RelatedTopics[i].FirstURL)
+        if(data.RelatedTopics[i].FirstURL != undefined){
+             result = data.RelatedTopics[i].FirstURL;
+        }
+        
         
         if(!result){
             continue;
