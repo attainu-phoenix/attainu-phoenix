@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Currency Excahnge app</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-md-4 col-md-4">
+                <h1>Currency Exchange app</h1>
+                <hr>
+                <div id="loading" class="spinner-border text-success" role="status">
+                    <span class="sr-only">Loading...</span>
+                  </div>
+                <h2 id="ratesdisplay"></h2>
+                <label>
+                    <input type="text" id="firstcurrency" class="form-control">
+                </label>
+                <p></p>
+                <label>
+                        <input type="text" id="secondcurrency" class="form-control">
+                </label>
+                <p>
+                </p>
+                <button class="btn btn-success" id="loadbutton">Show Exchange Rates</button>
+                
+                <P id="loading"></P>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
