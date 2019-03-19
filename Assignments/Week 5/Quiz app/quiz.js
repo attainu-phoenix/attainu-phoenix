@@ -3,7 +3,7 @@
 let data = [];
 let countdown = 30;
 let timer;
-let x;
+
 
 let countClock = function () {
     let clock = document.getElementById("clock");
@@ -17,13 +17,14 @@ let countClock = function () {
     clock.innerText = countdown;
 };
 
+let x = Math.floor(Math.random() * 10);
+
 let updateContent = function (data) {
     //timer functions
     timer = setInterval(countClock, 1000);
 
     // generating gibberish questions
 
-    x = Math.floor(Math.random() * 10);
     let question = data[x]["question"];
     let que = document.getElementById("question");
     que.innerText = question;
@@ -43,7 +44,7 @@ let updateFunc = function () {
         if (request.readyState == 4 && request.status == 200) {
             let jsonData = JSON.parse(request.responseText);
             data = jsonData;
-            updateContent(data);
+            updateContent(jsonData);
         }
     };
 };
@@ -52,9 +53,9 @@ updateFunc();
 
 let validation = function () {
     let inputAns = document.getElementById("inputText").value;
-
+    Ans = data[x].answer;
     //   to check if the answer is correct or wrong
-    if ((data[x]["answer"] = inputAns)) {
+    if (Ans == inputAns) {
         alert("Jackpot You Answered It Correctly");
         document.getElementById("submit").style.display = "none";
         clearInterval(timer);
