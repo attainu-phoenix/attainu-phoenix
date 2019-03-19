@@ -53,7 +53,7 @@ updateFunc();
 
 let validation = function () {
     let inputAns = document.getElementById("inputText").value;
-    Ans = data[x].answer;
+    let Ans = data[x].answer;
     //   to check if the answer is correct or wrong
     if (Ans == inputAns) {
         alert("Jackpot You Answered It Correctly");
