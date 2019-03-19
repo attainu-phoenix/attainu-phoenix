@@ -1,16 +1,16 @@
-"use strict"
+"use strict";
 
-//Creating All The Required Elements 
+//Creating All The Required Elements
 
 let content = document.getElementById("content");
 
-// Main Conatiner 
+// Main Conatiner
 
 let container = document.createElement("div");
 container.className = "container-fluid";
 content.appendChild(container);
 
-// Main Row 
+// Main Row
 
 let row = document.createElement("div");
 row.className = "row";
@@ -19,15 +19,19 @@ container.appendChild(row);
 // Full Width Column For The Title Of The Table
 
 let title = document.createElement("div");
-title.className = "col-md-12 text-center";
+title.className = "offset-md-3 col-md-6 text-center";
 row.appendChild(title);
 
-// H1 Title 
+// H1 Title
 
 let h1 = document.createElement("h1");
 h1.className = "display-4";
 title.appendChild(h1);
 h1.innerText = "Numbers and Square";
+
+//Creating HR Tag
+let hr = document.createElement("hr");
+title.appendChild(hr);
 
 // Main Table Column
 
@@ -40,7 +44,6 @@ row.appendChild(col);
 let table = document.createElement("table");
 table.className = "table table-striped";
 col.appendChild(table);
-
 
 let thead = document.createElement("thead");
 table.appendChild(thead);
@@ -59,27 +62,23 @@ th2.innerText = "Square";
 let tbody = document.createElement("tbody");
 table.appendChild(tbody);
 
-// Looping Out The Data 
+// Looping Out The Data
 
 let loopFunc = () => {
+  for (let i = 1; i <= 10; i++) {
+    let trInsert = document.createElement("tr");
+    tbody.appendChild(trInsert);
 
-    for (let i = 1; i <= 10; i++) {
-        let trInsert = document.createElement("tr");
-        tbody.appendChild(trInsert);
+    // Inserting The Data To The Table
 
-        // Inserting The Data To The Table 
+    let tdInsert = document.createElement("td");
+    trInsert.appendChild(tdInsert);
+    tdInsert.innerText = i;
 
-        let tdInsert = document.createElement("td");
-        trInsert.appendChild(tdInsert);
-        tdInsert.innerText = i;
-
-        let tdInsert2 = document.createElement("td");
-        trInsert.appendChild(tdInsert2);
-        tdInsert2.innerText = i * i;
-
-
-    }
-}
-
+    let tdInsert2 = document.createElement("td");
+    trInsert.appendChild(tdInsert2);
+    tdInsert2.innerText = i * i;
+  }
+};
 
 loopFunc();
