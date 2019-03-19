@@ -1,13 +1,14 @@
 "use strict";
 
-var updateC = function(data) {
-    for(let i = 0; i < data.length; i = i + 1) {
+alert("inside js");
 
+var updateC = function(data) {
+    for(var i = 0; i<data.length;i++) {
         if(data[i].state == "Maharashtra" || data[i].state == "Gujarat") {
 
-            console.log(data[i].state, data[i].name);
+            console.log(data[i].state, data[i].name); 
         }
-    }
+    }  
 };
 
 
@@ -28,6 +29,8 @@ var loadC = function() {
         if(request.readyState == 4 && request.status == 200) {
             var jsonData =  JSON.parse(request.responseText)
             updateC(jsonData);
+            
         }
     }    
 };
+loadC();
