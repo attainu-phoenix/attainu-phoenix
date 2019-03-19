@@ -1,0 +1,78 @@
+Fetch body tag in java script.
+
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Numbers and Squares</h2>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+create container and add to body element
+
+create row and append to container.
+
+crete a column and append to row.
+
+create heading and append that to column
+
+create hr (horizontal row ) and
+append that to column.
+
+Creating table and append to the column
+
+<table>
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+
+</table>
+
+Create table element and append to column
+
+create thead element and append to table.
+
+create tr (table row) and append to thead
+
+create th (table heading) element and apened to tr
+create another th and appened to tr.
+
+Table body
+
+<tbody>
+//this has to be repeated
+        so this will be in for loop
+        START of for loop
+        <tr> 
+
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    End of for loop
+</tbody>
+
+Create a tbody element and append to table
+
+Create a tr element and append to tbody
+
+create a two td and append to tr element
