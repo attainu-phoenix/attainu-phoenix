@@ -2,7 +2,7 @@
 
 
 var citiesBeginWith = function (cities, letter) {
-    console.log("citiesBeginWith called")
+    // console.log("citiesBeginWith called")
     var count = 0
     for (var i = 0; i <cities.length; i++) {
         var name = cities[i].name
@@ -18,7 +18,7 @@ var citiesBeginWith = function (cities, letter) {
 }
 
 var loadCities = function () {
-console.log("loadCitites called")
+// console.log("loadCitites called")
 
     var request = new XMLHttpRequest();
     request.open("get", "cities.json");
@@ -27,11 +27,12 @@ console.log("loadCitites called")
         if (request.readyState == 4 && request.status == 200) {
             var cities = JSON.parse(request.responseText)
 
-            citiesBeginWith(cities, 'A')
+            citiesBeginWith(cities, 'N')
            
 
         }
     };
 };
 
-document.getElementById("body").addEventListener("load", loadCities);
+console.log(loadCities())
+// document.getElementById("body").addEventListener("load", loadCities);
