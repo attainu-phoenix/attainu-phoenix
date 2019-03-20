@@ -106,6 +106,12 @@
 3. [Eloquent JavaScript book](https://eloquentjavascript.net/)
 4. [Mozilla Developer Network Javascript tutorial](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 5. [A re-introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) From MDN again. Kind of a crash course.
+6. [The JS way](https://github.com/bpesquet/thejsway/)
+7. [You don't know JS](https://github.com/getify/You-Dont-Know-JS) A book about many Javascript language features in detail.
 
 ## Reference
 1. [https://developer.mozilla.org/bm/docs/Web/JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)
+2. [JS Garden](https://bonsaiden.github.io/JavaScript-Garden/) - A collection of docs about quirky parts of Javascript.
+
+## Further Reading
+1. [JS event loop explained](https://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
