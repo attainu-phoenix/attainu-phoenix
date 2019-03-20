@@ -1,11 +1,19 @@
 # Web development tools
 
 ## Command Line
+
+#### Setup
+1. If you are using Windows, you can use the Git Bash terminal bundled with the Git installer as your command line. You can download it from [https://gitforwindows.org/](https://gitforwindows.org/)
+2. If you are using a GNU/Linux system, use the Terminal emulator bundled in your distribution.
+3. If you are on MacOS, you can use the Terminall app installed by default in Mac. You can also checkout iTerm for a more feature rich Terminal.
+
 #### Tutorials
 1. [Command Line Crash Course](https://learnpythonthehardway.org/book/appendixa.html)
-2. [Codeacademy command line course](https://www.codecademy.com/learn/learn-the-command-line)
+2. [Learn enough command line to be dangerous](https://www.learnenough.com/command-line-tutorial)
+3. [Codeacademy command line course](https://www.codecademy.com/learn/learn-the-command-line)
 
 ## Git and version control
+
 #### Setup
 1. For Windows, download gitbash from [https://gitforwindows.org/](https://gitforwindows.org/)
 2. For Linux based distributions, see the installation notes at [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
@@ -15,19 +23,25 @@
 3. [Git Book](https://git-scm.com/book/en/v2)
 
 ## Visual studio code
+
 #### Setup
 1. Download from here - [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
+
 #### Tutorials
 1. [https://code.visualstudio.com/docs](https://code.visualstudio.com/docs)
 2. [The Coding Train tutorial](https://www.youtube.com/watch?v=yJw0SyKO9IU)
 
 ## Chrome developer tools
+1. Bundled inside Chrome (or Chromium) browser.
+
 #### Tutorials
 1. [Google tutorial home](https://developers.google.com/web/tools/chrome-devtools/)
 
 ## Codepen
+
 #### Setup
 1. Signup at [https://codepen.io/](https://codepen.io/)
+
 #### Tutorial
 1. [https://www.youtube.com/watch?v=pd1NX--k29c](https://www.youtube.com/watch?v=pd1NX--k29c)
 
@@ -44,7 +58,7 @@
 2. [http://www.scriptingmaster.com/html/HTML-reference-pages.asp](http://www.scriptingmaster.com/html/HTML-reference-pages.asp)
 3. [Dev Docs](https://devdocs.io/) - Contains documentation for HTML & CSS along with many other open source technologies.
 
-## Other links
+## Further Reading
 1. [New HTML5 structural elements](https://dev.opera.com/articles/new-structural-elements-in-html5/)
 2. [HTML5 video introduction](https://dev.opera.com/articles/introduction-html5-video/)
 3. [input tag reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
@@ -77,16 +91,21 @@
 ## Useful CSS libraries
 1. [Eric Meyer's CSS reset](https://meyerweb.com/eric/tools/css/reset/)
 2. [Normalize.css](https://necolas.github.io/normalize.css/)
+3. [Bootstrap](https://getbootstrap.com/)
 
 ## Other links
 1. [Styling lists](http://www.smashingmagazine.com/2009/12/11/styling-html-lists-with-css-techniques-and-resources/)
 2. [CSS validator](https://jigsaw.w3.org/css-validator/)
+3. [Magic of CSS](http://adamschwartz.co/magic-of-css/)
 
 # Javascript
 
 ## Tutorials
 1. [https://htmldog.com/guides/javascript/](https://htmldog.com/guides/javascript/)
-2. [Eloquent JavaScript book](https://eloquentjavascript.net/)
+2. [Javascript for cats](http://jsforcats.com/) - Easy one to complete compared to others.
+3. [Eloquent JavaScript book](https://eloquentjavascript.net/)
+4. [Mozilla Developer Network Javascript tutorial](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+5. [A re-introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) From MDN again. Kind of a crash course.
 
 ## Reference
 1. [https://developer.mozilla.org/bm/docs/Web/JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)
