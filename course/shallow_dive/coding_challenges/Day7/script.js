@@ -1,11 +1,13 @@
 'use strict';
 
 var citiesBeginWith = function(cities, char) {
+    var count = 0;
     for(var counter = 0; counter < cities.length; counter = counter + 1) {
         if(cities[counter].name[0] == char) {
-            console.log(cities[counter].name);
+            count = count + 1;
         }
     }
+    console.log(count);
 }
 
 var loadContent = function() {
