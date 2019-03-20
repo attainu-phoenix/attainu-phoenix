@@ -1,0 +1,4 @@
+Load the JSOn file in your webpage using AJAX
+create a function that outputs total number of cities.
+make this function to output only cities with name A.
+1. If name is a string like -  `var name = "Ansal";`, you can index the individual characters in that string using array notation. For example `name[0]` is `A`, `name[1]` is `n`
