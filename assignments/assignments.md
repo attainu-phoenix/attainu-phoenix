@@ -123,3 +123,12 @@ Contact Us page -
 2. Once the user types an answer in the textbox and clicks Submit, the app should check whether the answer is correct or not. Show a dialog window (prompt) depening up on the right/wrong answer.
 3. Also, once the page is loaded, a timer should be started from 30 seconds and go down till 0 second. Once the timer reaches 0, the user should be shown a message saying that `Time is over!` and he/she should not be able to submit an answer after that.
 4. For styling and layout, please use Bootstrap.
+
+## Day 5
+
+#### Setup Github hosting for your assignments.
+
+1. Go to [https://pages.github.com/](https://pages.github.com/) and setup a github web hosting repo for your account.
+2. Copy all your assignments to the new repo.
+3. Create a simple landing page for all your assignments.
+4. Publish the page to Github.
