@@ -115,3 +115,13 @@
 
 ## Further Reading
 1. [JS event loop explained](https://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
+
+# NodeJS
+
+## Setup
+1. Download from here - [https://nodejs.org/en/](https://nodejs.org/en/)
+2. If you are using a GNU/Linux distribution, please use your package managed to install NodeJS.
+
+## Tutorials
+1. [Art of Node](https://github.com/maxogden/art-of-node)
+2. [Mastering Node](https://github.com/visionmedia/masteringnode)
