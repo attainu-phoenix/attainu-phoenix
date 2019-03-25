@@ -1,0 +1,16 @@
+.header1 {
+    color: orange;
+}
+
+#searchInput {
+    border: 2px solid;
+    margin-top: 1em;
+}
+
+#hr {
+    border: 1px solid;
+}
+
+#searchButton {
+    margin-top: 1em;
+}
