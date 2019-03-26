@@ -135,7 +135,23 @@
 # EpressJS
 
 ## Setup
+1. If you have Node and NPM installed, run `npm install express`
+2. [Hello World example](https://expressjs.com/en/starter/hello-world.html)
+3. [Routing Guide](https://expressjs.com/en/guide/routing.html)
+4. [Template engine Wiki](https://github.com/expressjs/express/wiki#template-engines)
 
-##Tutorials
+## Tutorials
+1. [Examples for Express apps](https://github.com/expressjs/express/tree/master/examples)
+2. [Node and Express introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
 
+# Handlebars
+
+## Setup
+1. Follow the instruction here - https://github.com/pillarjs/hbs#install
+
+## Documentation
+1. https://handlebarsjs.com/
+
+## Tutorials
+1. [Learn everything about Handlebars](http://javascriptissexy.com/handlebars-js-tutorial-learn-everything-about-handlebars-js-javascript-templating/)
 
