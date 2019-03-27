@@ -113,6 +113,10 @@
 1. [https://developer.mozilla.org/bm/docs/Web/JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)
 2. [JS Garden](https://bonsaiden.github.io/JavaScript-Garden/) - A collection of docs about quirky parts of Javascript.
 
+## Books
+1. [Professional Javascript for web developers](https://www.amazon.in/Professional-Javascript-Web-Developers-WROX/dp/8126535083)
+2. [Javascript: The definitive guide](https://www.amazon.in/JavaScript-Definitive-Guide-Flanagan-David/dp/9350233940/)
+
 ## Further Reading
 1. [JS event loop explained](https://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
 
