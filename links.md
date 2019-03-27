@@ -155,3 +155,10 @@
 ## Tutorials
 1. [Learn everything about Handlebars](http://javascriptissexy.com/handlebars-js-tutorial-learn-everything-about-handlebars-js-javascript-templating/)
 
+# Express body parser
+
+## Setup
+1. After `cd`ing into your project directory, run `npm install body-parser`.
+
+## Example code
+1. [https://github.com/expressjs/body-parser#examples](https://github.com/expressjs/body-parser#examples)
