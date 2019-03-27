@@ -143,3 +143,10 @@ Contact Us page -
 3. The `sub` route should take two url parameters and send back their difference.
 4. The `mul` route should take two url parameters and send back their product.
 5. The `div` route should take two url parameters and send back their division result.
+
+## Day 3
+
+#### Add a couple of features to the `Tennis Player` application
+1. In addition to the player name, also take player's country from the form.
+2. Instead of a list, show the player name and country inside two columns in a table.
+3. The data should be sent to the backend using `POST` method.
