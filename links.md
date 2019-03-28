@@ -135,6 +135,7 @@
 6. [Interactive guide](https://nodeschool.io/#workshoppers)
 7. [You don't know Node](https://github.com/azat-co/you-dont-know-node)
 8. [Teach yourself Node in 10 steps](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps)
+9. [Javascript for everyone](https://github.com/Asabeneh/JavaScript-for-Everyone)
 
 # EpressJS
 
