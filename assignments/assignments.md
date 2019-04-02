@@ -171,7 +171,7 @@ Contact Us page -
 ## Day 2
 
 ### Create an Express + MongoDB CRUD application
-1. Continuing with the [AttainU Application](/code/week-7-day-2/), finish the students part.
+1. Continuing with the [AttainU Application](code/week-7-day-2/), finish the students part.
 2. Create a page where all the students are listed.
 3. Create a page where the user can add a new student.
 4. The student form should talk Name, Phone and Location.
