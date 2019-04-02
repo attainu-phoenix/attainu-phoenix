@@ -167,3 +167,25 @@
 
 ## Example code
 1. [https://github.com/expressjs/body-parser#examples](https://github.com/expressjs/body-parser#examples)
+
+# MongoDB
+
+## Setup
+1. Windows users - Download and install from here - [https://www.mongodb.com/download-center/community](https://www.mongodb.com/download-center/community)
+2. Linux users - Follow the setup instruction here - [https://docs.mongodb.com/manual/administration/install-on-linux/](https://docs.mongodb.com/manual/administration/install-on-linux/)
+
+## Installation Notes
+1. For those who are on Windows 8 and below, you might need to start the MongoDB server manually. Go to the installation directory in your command line and run `./mongod.exe` to start the server.
+
+## Documentation
+1. [Mongo manual](https://university.mongodb.com/)
+2. [Mongo University](https://university.mongodb.com/) From the creators of MongoDB itself.
+
+## Tutorials
+1. MongoDB "CRUD" operations - [https://docs.mongodb.com/manual/crud/](https://docs.mongodb.com/manual/crud/)
+
+## Using MongoDB with NodeJS
+1. To install the native driver, run `npm install mongodb`
+2. Documentation - [https://mongodb.github.io/node-mongodb-native/](https://mongodb.github.io/node-mongodb-native/)
+3. [https://www.mongodb.com/blog/post/the-modern-application-stack-part-2-using-mongodb-with-nodejs](https://www.mongodb.com/blog/post/the-modern-application-stack-part-2-using-mongodb-with-nodejs)
+
