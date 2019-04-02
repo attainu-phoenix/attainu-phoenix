@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AttainU App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="offset-md-4 col-md-4">
+                <h2>AttainU App - Create Instructors</h2>
+                <hr>
+
+                <p>
+                    <a href="/">Go back to Main Menu</a> | 
+                    <a href="/instructors">View all Instructors</a>
+                </p>
+
+                <form action="/instructors/add" method="POST">
+                
+                    <label for="">
+                        Instructor Name:
+                        <input type="text" class="form-control" name="name">
+                    </label>
+
+                    <label for="">
+                        Instructor Phone:
+                        <input type="text" class="form-control" name="phone">
+                    </label>
+
+                    <p></p>
+
+                    <button type="submit" class="btn btn-success">Add Instructor</button>
+                
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
