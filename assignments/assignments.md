@@ -150,3 +150,13 @@ Contact Us page -
 1. In addition to the player name, also take player's country from the form.
 2. Instead of a list, show the player name and country inside two columns in a table.
 3. The data should be sent to the backend using `POST` method.
+
+# Week 7 assignments
+
+## Day 2
+
+### Create an Express + MongoDB CRUD application
+1. Continuing with the [AttainU Application](/code/week-7-day-2/), finish the students part.
+2. Create a page where all the students are listed.
+3. Create a page where the user can add a new student.
+4. The student form should talk Name, Phone and Location.
