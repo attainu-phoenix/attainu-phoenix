@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ansal's Blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="row">
+            <div class="col-md-4 offset-md-8">
+                <h1>Ansal's Blog</h1>
+            </div>
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- Navigation -->
+            <div class="col-md-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">View Blog Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/add">Add Blog Post</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-9">
+                {{#each allPosts}}
+                    <h3>
+                        <a href="/edit/{{_id}}">{{title}}</a>
+                    </h3>
+                    <p>{{content}}</p>
+                    <div class="row">
+                        <p></p>
+                    </div>  
+                {{/each}}
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

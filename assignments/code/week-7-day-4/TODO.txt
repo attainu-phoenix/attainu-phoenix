@@ -1,0 +1,24 @@
+HTML Pages
+
+    Listing page - Which lists all the blog entries. Index
+    Page to create blog entries
+    Page to edit the blog post
+    Page to delete the blog post
+
+Express Routes
+
+AJAX
+
+Validation
+
+MongoDB
+
+
+
+
+
+Challenge TODOS.
+
+1. First I need to read the file.
+2. Connect to the DB.
+3. Insert all the data inside the JSON file.

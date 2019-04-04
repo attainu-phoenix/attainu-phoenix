@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ansal's Blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="row">
+            <div class="col-md-4 offset-md-8">
+                <h1>Ansal's Blog</h1>
+            </div>
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- Navigation -->
+            <div class="col md-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">View Blog Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/add">Add Blog Post</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Add Blog Form -->
+            <div class="col-md-9">
+
+                {{#if success}}
+                <div class="alert alert-success">
+                    <strong>Success: </strong> Your blog post has been edited successfully!
+                </div>
+                {{/if}}
+
+                <h2>Editing - "{{title}}"</h2>
+                <hr>
+
+                <form action="/edit/{{_id}}" method="POST">
+
+                    <div class="form-group">
+                        <label for="title">Title for your post</label>
+                        <input type="text" name="title" id="title" class="form-control" value="{{title}}">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="content">Blog post content</label>
+                        <textarea name="content" id="content" cols="30" rows="10" class="form-control">{{content}}</textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Update Post</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
