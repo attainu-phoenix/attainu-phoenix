@@ -179,7 +179,7 @@ Contact Us page -
 ## Day 4
 
 #### Build signup and login page for the blog application
-1. Get the blog app code from here - [Blog](code/week-7-day-5/)
+1. Get the blog app code from here - [Blog](code/week-7-day-4/)
 2. Create a signup page that takes user's name, email and password and put in `blog` db's `users` collection.
 3. Create a login page where the email and password taken from users are checked against the data in `users` collection.
 4. Upon successfull signup and login, you can do a simple `response.send()` to send a success/error message.
