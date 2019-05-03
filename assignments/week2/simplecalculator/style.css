@@ -1,0 +1,16 @@
+body {
+    background-color: orange;
+  }
+  .Calculator {
+    width: 300px;
+    margin-left: 10px;
+  }
+  
+  input {
+    font-size: 1em;
+  }
+  
+  button {
+    font-size: 1em;
+  }
+  

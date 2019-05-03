@@ -1,0 +1,21 @@
+.LoginPage{
+    margin:0;
+  }
+  .column{
+    margin:0;
+    border-style:solid;
+    border-color:blue;
+    border-width:1px;
+    border-height:1px;
+    padding:5px;
+    font-size: 0.5cm;
+    text-align: center;
+    background:#6666ff;
+  }
+  input[type=button]{
+  width;100%;
+  font-size: 0.5cm;
+  margin-left:175px;
+  margin-right:10px;  
+  padding:5px;
+  }

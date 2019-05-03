@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tennis Players App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-md-4 col-md-4">
+                <h1>Tennis Players App</h1>
+                <hr>
+                <p>Welcome {{ username }} </p>
+                
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+                            <th>Location</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+                       
+                       {{#each db}}
+                       <tr>
+                        <td>{{ name }}</td>
+                        <td>{{ location }}</td>
+                       </tr>
+                        {{/each}} 
+                                             
+                     </tbody>
+                    
+                </table>
+
+
+                <p> <hr> </p>
+                <form action="/players" method="POST">
+                    <label for="">
+            Enter player name: <input name="name" type="text" class="form-control">
+            Enter player location: <input name="location" type="text" class="form-control">
+                        <button type="submit" class="btn btn-info">Add Player</button>
+
+                    </label>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
