@@ -117,6 +117,10 @@
 1. [Professional Javascript for web developers](https://www.amazon.in/Professional-Javascript-Web-Developers-WROX/dp/8126535083)
 2. [Javascript: The definitive guide](https://www.amazon.in/JavaScript-Definitive-Guide-Flanagan-David/dp/9350233940/)
 
+## E6 Specific Resources
+1. [ES6 features in bullet points](https://github.com/bevacqua/es6)
+2. [Understanding ES6 (book) ](https://leanpub.com/understandinges6/read)
+
 ## Further Reading
 1. [JS event loop explained](https://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
 
