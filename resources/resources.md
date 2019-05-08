@@ -120,6 +120,13 @@
 ## Further Reading
 1. [JS event loop explained](https://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
 
+# jQuery
+
+## Tutorials
+1. [https://learn.jquery.com/](https://learn.jquery.com/)
+2. [https://www.codecademy.com/learn/learn-jquery](https://www.codecademy.com/learn/learn-jquery)
+3. [https://css-tricks.com/lodge/learn-jquery/](https://css-tricks.com/lodge/learn-jquery/)
+
 # NodeJS
 
 ## Setup
