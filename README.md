@@ -6,7 +6,7 @@ The students have to fork the repository, commit their assignments in the `assig
 
 ## Assignments
 
-All the assignments are listed here - [assignments/assignments.md](assignments/assignments.md)
+All the assignments are listed here - [assignments/assignments.md](assignments/README.md)
 
 ## Resources
 
