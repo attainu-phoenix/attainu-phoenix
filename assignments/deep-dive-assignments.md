@@ -29,3 +29,20 @@ The original description of the assignment -
 #### Create a React Login Form (no events/validations etc)
 
 Create a `LoginForm` component that renders two inputs and a button to render as a login form.
+
+## Day 5
+
+#### React Simple Calculator
+
+We have created a simple calculator using vanilla Javascript before.
+
+Now lets create the same one using React.
+
+Original description of the calculator assignment -
+
+Create a simple calculator using JS with the UI looking like this -
+
+![calcualtor](images/calculator.png)
+1. The user input should be validated.
+2. All the arithmetic operations should be implemented using functions.
+
