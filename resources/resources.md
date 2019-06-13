@@ -201,18 +201,57 @@
 3. [https://www.mongodb.com/blog/post/the-modern-application-stack-part-2-using-mongodb-with-nodejs](https://www.mongodb.com/blog/post/the-modern-application-stack-part-2-using-mongodb-with-nodejs)
 
 
-# ReactJS
-
-## Tutorials
-1. [https://reactjs.org/tutorial/tutorial.html](https://reactjs.org/tutorial/tutorial.html)
-2. [React Fundamentals](https://tylermcginnis.com/courses/react-fundamentals/)
-3. [React Express](http://www.react.express/)
+# React
 
 ## Documentation
 1. [Official Docs](https://reactjs.org/docs/getting-started.html)
+
+## Tutorials
+1. [Official Tutorial](https://reactjs.org/tutorial/tutorial.html)
+2. [React Fundamentals](https://tylermcginnis.com/courses/react-fundamentals/)
+3. [React Express](http://www.react.express/)
+
+## Video Tutorials
+1. [Egghead's Beginner guide to React](https://egghead.io/courses/the-beginner-s-guide-to-react)
+2. [Practical React](https://www.youtube.com/playlist?list=PLN3n1USn4xlntqksY83W3997mmQPrUmqM)
 
 ## Further Reading
 1. [JavaScript fundamentals before learning React](https://www.robinwieruch.de/javascript-fundamentals-react-requirements/)
 2. [9 things every React.js beginner should know](https://camjackson.net/post/9-things-every-reactjs-beginner-should-know)
 3. [8 things to learn in React before using Redux](https://www.robinwieruch.de/learn-react-before-using-redux/)
 4. [Removing User Interface Complexity, or Why React is Awesome](https://jlongster.com/Removing-User-Interface-Complexity,-or-Why-React-is-Awesome)
+5. [Your Timeline for Learning React/](https://daveceddia.com/timeline-for-learning-react/)
+6. [Why do we write `super(props)`](https://overreacted.io/why-do-we-write-super-props/)
+
+## Examples
+1. [https://reactjs.org/community/examples.html](https://reactjs.org/community/examples.html)
+
+
+# Redux
+
+## Documentation
+1. [Official Docs](https://redux.js.org/introduction/getting-started)
+
+## Tutorials
+1. [Getting started with Redux by Redux creator Dan Abramov](https://egghead.io/courses/getting-started-with-redux)
+
+## Further Reading
+1. [Create your own Redux! Understanding how Redux works.](https://repl.it/@dericgw/ReduxRecreated)
+
+
+# React Router
+
+## Documentation
+1. [https://reacttraining.com/react-router/](https://reacttraining.com/react-router/)
+
+## Tutorial
+1. [Sitepoint's React Router Tutorial](https://www.sitepoint.com/react-router-v4-complete-guide/)
+2. [Tyler's React Router Tutorial](https://www.youtube.com/playlist?list=PLqrUy7kON1mfJ1cQfJJ1FiULLNngvlFTD)
+3. [Introduction Video](https://www.youtube.com/watch?v=l9eyot_IXLY)
+
+
+# React + Redux + React Router
+
+## Tutorials
+1. [React Redux Tutorial](https://daveceddia.com/redux-tutorial/)
+2. [Frontend Bootcamp by Microsoft](https://microsoft.github.io/frontend-bootcamp/)
