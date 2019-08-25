@@ -255,3 +255,49 @@
 ## Tutorials
 1. [React Redux Tutorial](https://daveceddia.com/redux-tutorial/)
 2. [Frontend Bootcamp by Microsoft](https://microsoft.github.io/frontend-bootcamp/)
+
+# Algorithms and Data Structures
+
+## Implementations in Javascript
+1. [https://github.com/amejiarosario/dsa.js-data-structures-algorithms-javascript](https://github.com/amejiarosario/dsa.js-data-structures-algorithms-javascript)
+2. [https://github.com/trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+3. [https://github.com/keon/algorithms](https://github.com/keon/algorithms) - In Python programming language. Can be used as a reference.
+
+## Big O Notation
+1. [Common Big O Notations](https://github.com/mohammedjasam/Technical-Interview-Guide#big-o-notation)
+2. [Cheat sheet](https://www.bigocheatsheet.com/)
+3. [Another resources for common O notations](https://cooervo.github.io/Algorithms-DataStructures-BigONotation/)
+
+## Video Tutorials
+1. [Algorithms and Data Structures - Curated playlist](https://www.youtube.com/playlist?list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+## Books
+1. [Cracking the Coding Interview](https://www.goodreads.com/book/show/12544648-cracking-the-coding-interview)
+2. [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
+3. [The Algorithm Design Manual](https://www.goodreads.com/book/show/425208.The_Algorithm_Design_Manual)
+
+## Blog Posts
+1. [The Intuitive Guide to Data Structures And Algorithms](https://www.interviewcake.com/data-structures-and-algorithms-guide)
+2. [Improving your Algorithms & Data Structure Skills](https://medium.com/coderbyte/how-to-get-good-at-algorithms-data-structures-d33d5163353f)
+3. [Top 10 algorithms in Interview Questions](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
+4. [The 2 types of software engineering interviews and how to prepare for them](https://medium.com/employbl/the-2-types-of-software-engineering-interviews-and-how-to-prepare-for-them-2e7bd4daa0b)
+
+## Practice Sites
+1. [Javascript interview coding challenges](https://github.com/kolodny/exercises)
+2. [Coding Train challenges](https://thecodingtrain.com/CodingChallenges/)
+3. [Top Coder challenges](https://www.topcoder.com/challenges/?pageIndex=1)
+4. [Coderbyte challenges](https://coderbyte.com/challenges)
+5. [Leetcode challenges](https://leetcode.com/problemset/all/)
+6. [Coding challenges in Javascript](https://github.com/appalaszynski/javascript-exercises)
+
+## Other Resources
+1. [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+2. [Visual Algo](https://visualgo.net/en)
+3. [Lets talk Algorithms](https://letstalkalgorithms.com/)
+4. [Algomation](http://www.algomation.com/)
+5. [Algorithms as dance moves](https://www.youtube.com/user/AlgoRythmics/videos)
+6. [Algorithm and Data Structures Wiki](https://thimbleby.gitlab.io/algorithm-wiki-site/)
+7. [More Algorithm Visualizations](https://rosulek.github.io/vamonos/demos/)
+8. [TopCoder Tutorials](https://www.topcoder.com/community/competitive-programming/tutorials/)
+9. [Coding University - A self taught CS curriculum with very good resources on DS and Algorithms](https://github.com/jwasham/coding-interview-university)
+10.[Itsy Bitsy Data Structures](https://github.com/jamiebuilds/itsy-bitsy-data-structures)
