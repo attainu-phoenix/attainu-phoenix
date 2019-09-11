@@ -256,6 +256,7 @@
 1. [React Redux Tutorial](https://daveceddia.com/redux-tutorial/)
 2. [Frontend Bootcamp by Microsoft](https://microsoft.github.io/frontend-bootcamp/)
 
+
 # Algorithms and Data Structures
 
 ## Implementations in Javascript
@@ -301,3 +302,21 @@
 8. [TopCoder Tutorials](https://www.topcoder.com/community/competitive-programming/tutorials/)
 9. [Coding University - A self taught CS curriculum with very good resources on DS and Algorithms](https://github.com/jwasham/coding-interview-university)
 10.[Itsy Bitsy Data Structures](https://github.com/jamiebuilds/itsy-bitsy-data-structures)
+
+
+# SQL
+
+## Tutorials
+
+. [Khan Academy SQL course](https://www.khanacademy.org/computing/computer-programming/sql)
+. [Learn SQL with simple, interactive exercises](https://sqlbolt.com/)
+. [SQL Zoo](https://sqlzoo.net/)
+. [SQL tutorial on Postgresql's documentation](https://www.postgresql.org/docs/current/sql.html)
+. [Select Star SQL](https://selectstarsql.com/)
+. [SQL Cheat Sheet ](https://s3-us-west-2.amazonaws.com/dbshostedfiles/dbs/sql_cheat_sheet.pdf)
+
+## Other Resources
+
+. [How SQL Database Engines Work](https://www.youtube.com/watch?v=Z_cX3bzkExE)
+. [PostgreSQL Exercises](https://pgexercises.com/)
+. [A guide to DB performance](https://use-the-index-luke.com/)
