@@ -46,3 +46,8 @@ Create a simple calculator using JS with the UI looking like this -
 1. The user input should be validated.
 2. All the arithmetic operations should be implemented using functions.
 
+## Day 5 to Day X
+
+#### MyTube app
+
+Build a simple Youtube clone using React and Redux
