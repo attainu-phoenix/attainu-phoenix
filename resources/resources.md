@@ -308,15 +308,15 @@
 
 ## Tutorials
 
-. [Khan Academy SQL course](https://www.khanacademy.org/computing/computer-programming/sql)
-. [Learn SQL with simple, interactive exercises](https://sqlbolt.com/)
-. [SQL Zoo](https://sqlzoo.net/)
-. [SQL tutorial on Postgresql's documentation](https://www.postgresql.org/docs/current/sql.html)
-. [Select Star SQL](https://selectstarsql.com/)
-. [SQL Cheat Sheet ](https://s3-us-west-2.amazonaws.com/dbshostedfiles/dbs/sql_cheat_sheet.pdf)
+1. [Khan Academy SQL course](https://www.khanacademy.org/computing/computer-programming/sql)
+2. [Learn SQL with simple, interactive exercises](https://sqlbolt.com/)
+3. [SQL Zoo](https://sqlzoo.net/)
+4. [SQL tutorial on Postgresql's documentation](https://www.postgresql.org/docs/current/sql.html)
+5. [Select Star SQL](https://selectstarsql.com/)
+6. [SQL Cheat Sheet ](https://s3-us-west-2.amazonaws.com/dbshostedfiles/dbs/sql_cheat_sheet.pdf)
 
 ## Other Resources
 
-. [How SQL Database Engines Work](https://www.youtube.com/watch?v=Z_cX3bzkExE)
-. [PostgreSQL Exercises](https://pgexercises.com/)
-. [A guide to DB performance](https://use-the-index-luke.com/)
+1. [How SQL Database Engines Work](https://www.youtube.com/watch?v=Z_cX3bzkExE)
+2. [PostgreSQL Exercises](https://pgexercises.com/)
+3. [A guide to DB performance](https://use-the-index-luke.com/)
