@@ -1,0 +1,25 @@
+.center {
+
+    width: 400px;
+    margin: 0 auto;
+}
+
+body{
+
+    background-color: green;
+
+
+    margin: 200px;
+}
+.num1{ width: 200px; height: 30px;}
+.num2{ width: 200px;height: 30px;}
+
+button{
+    background: pink;
+    width: 100px;
+    font-size: 30px;
+}
+
+.button1{ font-size: 40px; width: 205px;}
+
+h2{font-size: 3em;}
